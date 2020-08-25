@@ -1,0 +1,80 @@
+:root {
+    --accent-color: #458FF6;
+    --text-color: #7d7987;
+    --title-color: #000;
+}
+
+/* Общие стили*/
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: white;
+}
+
+/* перебиваем контейнер */
+
+.container {
+    max-width: 1240px;
+}
+
+/* компоненты */
+button {
+    cursor: pointer;
+    border-radius: 55px;
+    border: none;
+    padding: 15px 35px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.button--solid {
+    background-color: var(--accent-color);
+    color: white;
+
+}
+
+.button--solid:hover {
+    background-color: #3c7bd3;
+}
+
+.header {
+    padding: 50px 0;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.active {
+    font-weight: bold;
+    color: #1f1534 !important;
+}
+
+.menu__link {
+    color: var(--text-color);
+    text-decoration: none;
+    transform: all 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.menu__link:hover {
+    color:  #1f1534;
+    text-decoration: none;
+}
+
+/* header content */
+
+.header__title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header__text {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 32px;
+}
+
